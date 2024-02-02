@@ -16,16 +16,16 @@ Note to future dev / design task, there is a ton of customizations around the Pr
 The Cart Drawer (Add to Cart Actions) is very slow with regard to updates, making 5 rounds of API request that could be handled by a single API request to the cart api.
 
 There are a couple of uniquely designed sections, that look great, but have a very low usability, i.e. buttons that are too small to click.
-![image](https://github.com/Framework-Labs-D2C/Bearaby-Audit/bearaby-1)
+![image](https://github.com/Framework-Labs-D2C/Bearaby-Audit/bearaby-1.png)
 
 Lots of unused JS being loaded into the site:
-![image](https://github.com/Framework-Labs-D2C/Bearaby-Audit/bearaby-2)
+![image](https://github.com/Framework-Labs-D2C/Bearaby-Audit/bearaby-2.png)
 
 Blocking JS time - 5s on mobile is very long
-![image](https://github.com/Framework-Labs-D2C/Bearaby-Audit/bearaby-3)
+![image](https://github.com/Framework-Labs-D2C/Bearaby-Audit/bearaby-3.png)
 
 Server side performance very good. Only the products slider isn't well optimized.
-![image](https://github.com/Framework-Labs-D2C/Bearaby-Audit/bearaby-4)
+![image](https://github.com/Framework-Labs-D2C/Bearaby-Audit/bearaby-4.png)
 
 
 ## Usability Audit
