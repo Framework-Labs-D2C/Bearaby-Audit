@@ -7,9 +7,9 @@
 | ajtzyd | 2024-02-01 15:24:34.866 | bearabystore.myshopify.com | 135310999738 | https://bearabystore.myshopify.com/products/the-napper?desktop  | 34 | 28 | 32 | 75 | 57 | 72 |
 | fc1iwh | 2024-02-01 15:21:38.892 | bearabystore.myshopify.com | 135310999738 | https://bearabystore.myshopify.com/products/the-napper?preview\_theme\_id=135310999738&desktop  | 32 | 27 | 28 | 61 | 48 | 62 |
 
-A major issue is that no image optimization is happening. All images are loaded in only 1 fixed size and not dynamically based on the users screen size.
+There does not seem to be any image optimization occurring. All images are loaded in only 1 fixed size and not dynamically based on the users screen size.
 
-There also seems to be a performance script is active, similar to Platter's performance app, but Bearaby's runs client side only. This results in a delayed user experience to start, without deferring a very high initial page load. The only benefit is that compute time is delayed. This also blocks some of the testing options for server rendered performance.
+There seems to be a performance script that is active, similar to Platter's performance app, but Bearaby's runs client side only. This results in a delayed user experience to start, without deferring the very high initial page load. The only benefit is that compute time is delayed. The script also blocks some of the testing options for server rendered performance.
 
 Note to future dev / design task, there is a ton of customizations around the Product integrating Weights / Sizes
 
@@ -24,7 +24,7 @@ Lots of unused JS being loaded into the site:
 Blocking JS time - 5s on mobile is very long
 ![image](https://github.com/Framework-Labs-D2C/Bearaby-Audit/bearaby-3)
 
-Server side performance is good to very good. Only the Products-slider isn't well optimized.
+Server side performance very good. Only the products slider isn't well optimized.
 ![image](https://github.com/Framework-Labs-D2C/Bearaby-Audit/bearaby-4)
 
 
